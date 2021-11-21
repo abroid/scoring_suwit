@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUWIT</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+  </head>
+  <body>
+    <h1 class="title">Gajah Orang Semut</h1>
+
+    <div class="container">
+      <div class="container-side front">
+        <div class="area-bot">
+          <h1 class="player-name bot">BOT</h1>
+          <ul id="imgandscore">
+            <li><img class="img-bot" /></li>
+            <li>
+              <h2 class="score score-bot">Score : <span id="score-bot" value="0">0</span></h2>
+            </li>
+          </ul>
+        </div>
+        <div class="info"></div>
+        <div class="area-player">
+          <span id="ket-player">
+            <h1 class="player-name anda">ANDA</h1>
+            <h2 class="score score-player">Score : <span id="score-player" value="0">0</span></h2>
+          </span>
+          <ul class="choices">
+            <li class="choice">
+              <img src="img/gajah.png" class="gajah" />
+            </li>
+            <li class="choice">
+              <img src="img/orang.png" class="orang" />
+            </li>
+            <li class="choice">
+              <img src="img/semut.png" class="semut" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container-side back">
+        <h1 class="end-result">HASIL AKHIR!</h1>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
